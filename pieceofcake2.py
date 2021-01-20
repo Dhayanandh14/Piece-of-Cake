@@ -1,0 +1,5 @@
+lst = list(input().split())
+n=int(lst[0])
+v=int(lst[1])
+h=int(lst[2])
+print(max(v,n-v)*max(h,n-h)*4)
